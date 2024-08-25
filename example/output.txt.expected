@@ -1,0 +1,41 @@
+Read1 before filtering:
+total reads: 250
+total bases: 37750
+Q20 bases: 36332(96.2437%)
+Q30 bases: 34602(91.6609%)
+
+Read2 before filtering:
+total reads: 250
+total bases: 37750
+Q20 bases: 35613(94.3391%)
+Q30 bases: 33224(88.0106%)
+
+Read1 after filtering:
+total reads: 245
+total bases: 36339
+Q20 bases: 35014(96.3538%)
+Q30 bases: 33365(91.816%)
+
+Read2 after filtering:
+total reads: 245
+total bases: 36349
+Q20 bases: 34654(95.3369%)
+Q30 bases: 32407(89.1551%)
+
+Filtering result:
+reads passed filter: 490
+reads failed due to low quality: 10
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads with adapter trimmed: 46
+bases trimmed due to adapters: 1279
+
+Duplication rate: 0%
+
+Insert size peak (evaluated by paired-end reads): 168
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i /biorg/data/RNA/UMiami/small/S12_R1.fastq -I /biorg/data/RNA/UMiami/small/S12_R2.fastq 
+fastp v0.23.2, time used: 0 seconds

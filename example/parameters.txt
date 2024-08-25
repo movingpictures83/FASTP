@@ -1,0 +1,2 @@
+forward	/biorg/data/RNA/UMiami/small/S12_R1.fastq
+reverse	/biorg/data/RNA/UMiami/small/S12_R2.fastq

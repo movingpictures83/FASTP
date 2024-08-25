@@ -1,0 +1,2 @@
+Prefix plugins/FASTP/example/
+Plugin FASTP inputfile parameters.txt outputfile output.txt
